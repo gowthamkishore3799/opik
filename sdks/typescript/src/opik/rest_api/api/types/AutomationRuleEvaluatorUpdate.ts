@@ -14,8 +14,7 @@ export namespace AutomationRuleEvaluatorUpdate {
     }
 
     export interface UserDefinedMetricPython
-        extends OpikApi.AutomationRuleEvaluatorUpdateUserDefinedMetricPython,
-            _Base {
+        extends OpikApi.AutomationRuleEvaluatorUpdateUserDefinedMetricPython, _Base {
         type: "user_defined_metric_python";
     }
 
